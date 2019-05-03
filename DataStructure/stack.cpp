@@ -36,8 +36,11 @@ Stack<type>::Stack()
 template<typename type>
 Stack<type>::~Stack()
 {
+	/*
 	delete[] Base;
-	delete[] --Top;
+	delete[] --Top; 
+	* 此举会造成free(): invalid pointer! 
+	* 因此指针地址发生了变化 */
 	//释放指针，防止内存泄露
 }
 
