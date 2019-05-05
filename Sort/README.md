@@ -1,11 +1,17 @@
 ﻿## 排序算法的深入分析和实现
 **1.1 排序的定义**
 对一序列对象根据某个关键字进行排序。
+
 **1.2 术语说明**
+
 **稳定**：如果a原本在b前面，而a=b，排序之后a仍然在b的前面；
+
 **不稳定**：如果a原本在b的前面，而a=b，排序之后a可能会出现在b的后面；
+
 **内排序In-place**：所有排序操作都在内存中完成；
+
 **外排序Out-place**：由于数据太大，因此把数据放在磁盘中，而排序通过磁盘和内存的数据传输才能进行；
+
 
 **1.3 算法总结**![在这里插入图片描述](https://img-blog.csdnimg.cn/20190419171130152.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1aGFvMTk5ODA5MDk=,size_16,color_FFFFFF,t_70)
 
